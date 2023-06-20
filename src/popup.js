@@ -126,6 +126,7 @@ async function reviewPR(diffPath, context, title) {
     - Do not highlight minor issues and nitpicks.
     - Use bullet points if you have multiple comments.
     - Provide security recommendations if there are any.
+    - Be critical of object-oriented design choices. Give feedback on how the software design can be improved.
 
     You are provided with the code changes (diffs) in a unidiff format.
     Do not provide feedback yet. I will follow-up with a description of the change in a new message.`
